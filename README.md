@@ -30,7 +30,8 @@ Tệp tài liệu Word này chứa dữ liệu bệnh dưới dạng dễ đọc
 Tệp HTML này là giao diện chính của ứng dụng web. Người dùng sẽ nhập triệu chứng vào trong biểu mẫu và nhận kết quả dự đoán về các bệnh có thể có. Tệp HTML này sử dụng **Bootstrap** để tạo giao diện người dùng thân thiện và dễ sử dụng. Các kết quả dự đoán sẽ được hiển thị dưới dạng bảng, bao gồm tên bệnh, xác suất, triệu chứng, nguyên nhân, phương pháp phòng ngừa và điều trị.
 
 ## Cài Đặt
-Cài đặt các thư viện phụ thuộc: Bạn có thể cài đặt các thư viện cần thiết bằng pip:
+Cài đặt các thư viện phụ thuộc: Bạn có thể cài đặt các thư viện cần thiết bằng pip:  
+
 pip install flask python-docx scikit-learn dash plotly requests beautifulsoup4
 
 Chạy ứng dụng: Để chạy ứng dụng web Flask, bạn chỉ cần chạy lệnh sau:

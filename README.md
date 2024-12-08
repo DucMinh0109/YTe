@@ -31,17 +31,8 @@ Tệp HTML này là giao diện chính của ứng dụng web. Người dùng s�
 
 ## Cài Đặt
 Cài đặt các thư viện phụ thuộc: Bạn có thể cài đặt các thư viện cần thiết bằng pip:
+pip install flask python-docx scikit-learn dash plotly requests beautifulsoup4
 
-pip install -r requirements.txt
-Tệp requirements.txt cần chứa các thư viện sau:
-
-Flask
-Dash
-scikit-learn
-plotly
-python-docx
-requests
-BeautifulSoup
 Chạy ứng dụng: Để chạy ứng dụng web Flask, bạn chỉ cần chạy lệnh sau:
 python app.py
 Ứng dụng sẽ chạy trên địa chỉ http://127.0.0.1:5000/.
